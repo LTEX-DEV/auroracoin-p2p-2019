@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var bitcoreTasks = require('digibyte-build');
+var bitcoreTasks = require('auroracoin-build');
 
 bitcoreTasks('p2p', {skipBrowser: true});
 

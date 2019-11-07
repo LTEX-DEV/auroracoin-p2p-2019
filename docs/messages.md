@@ -1,5 +1,5 @@
 # Messages
-The digibyte protocol specifies a set of [messages](https://en.bitcoin.it/wiki/Protocol_specification) that can be sent from peer to peer. `digibyte-p2p` provides support for some of these messages.
+The auroracoin protocol specifies a set of [messages](https://en.bitcoin.it/wiki/Protocol_specification) that can be sent from peer to peer. `auroracoin-p2p` provides support for some of these messages.
 
 To create a message, you can use any of the message constructors, here is a simple example:
 
@@ -16,7 +16,7 @@ message = messages.GetData.forBlock(blockHash);
 message = messages.Inventory.forTransaction(txHash);
 ```
 
-As well as sending "tx" and "block" messages with DigiByte-js instances:
+As well as sending "tx" and "block" messages with Auroracoin-js instances:
 
 ```javascript
 message = messages.Block(block);
@@ -39,7 +39,7 @@ var messages = new Messages({network: Networks.testnet});
 
 ## List of Messages
 ### Version
-The version message (`ver`) is used on connection creation, to advertise the type of node. The remote node will respond with its version, and no communication is possible until both peers have exchanged their versions. By default, digibyte-js advertises itself as named `digibyte-js` with the current version of the `digibyte-p2p` package.
+The version message (`ver`) is used on connection creation, to advertise the type of node. The remote node will respond with its version, and no communication is possible until both peers have exchanged their versions. By default, auroracoin-js advertises itself as named `auroracoin-js` with the current version of the `auroracoin-p2p` package.
 
 ### VerAck
 Finishes the connection handshake started by the `ver` message.

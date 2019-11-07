@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('digibyte-p2p').Pool;
-var Networks = require('digibyte').Networks;
+var Pool = require('auroracoin-p2p').Pool;
+var Networks = require('auroracoin').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

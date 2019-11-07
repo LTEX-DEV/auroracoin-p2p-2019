@@ -1,7 +1,7 @@
 {
-  "name": "digibyte-p2p",
+  "name": "auroracoin-p2p",
   "version": "5.0.2",
-  "description": "Interface to the digibyte P2P network for digibyte-js",
+  "description": "Interface to the auroracoin P2P network for auroracoin-js",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -10,21 +10,21 @@
     "build": "gulp"
   },
   "keywords": [
-    "digibyte"
+    "auroracoin"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digicontributer/digibyte-p2p.git"
+    "url": "https://github.com/LTEX-DEV/auroracoin-p2p-2019.git"
   },
   "dependencies": {
     "bcoin": "^1.0.2",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
-    "digibyte": "^0.15.5",
+    "auroracoin": "git://github.com/LTEX-DEV/bitcore-lib-2019.git",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "digibyte-build": "digibyte-core/digibyte-build.git",
+    "auroracoin-build": "git://github.com/LTEX-DEV/auroracoin-build-2019.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

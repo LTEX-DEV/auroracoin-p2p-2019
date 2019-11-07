@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var builder = P2P.Messages.builder;
-var digibyte = require('digibyte');
+var auroracoin = require('auroracoin');
 
 describe('Messages Builder', function() {
 
@@ -18,9 +18,9 @@ describe('Messages Builder', function() {
     it('should return commands with customizations', function() {
       // instantiate
       var b = builder({
-        network: digibyte.Networks.testnet,
-        Block: digibyte.Block,
-        Transaction: digibyte.Transaction
+        network: auroracoin.Networks.testnet,
+        Block: auroracoin.Block,
+        Transaction: auroracoin.Transaction
       });
       should.exist(b);
     });

@@ -10,14 +10,14 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var digibyte = require('digibyte');
-var _ = digibyte.deps._;
+var auroracoin = require('auroracoin');
+var _ = auroracoin.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;
 var EventEmitter = require('events').EventEmitter;
 var Messages = P2P.Messages;
 var messages = new Messages();
-var Networks = digibyte.Networks;
+var Networks = auroracoin.Networks;
 
 describe('Peer', function() {
 

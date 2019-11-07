@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var digibyte = require('digibyte');
+var auroracoin = require('auroracoin');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = digibyte.util.buffer;
-var BufferWriter = digibyte.encoding.BufferWriter;
-var BufferReader = digibyte.encoding.BufferReader;
+var BufferUtils = auroracoin.util.buffer;
+var BufferWriter = auroracoin.encoding.BufferWriter;
+var BufferReader = auroracoin.encoding.BufferReader;
 
 describe('Inventory', function() {
 

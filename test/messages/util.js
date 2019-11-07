@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var digibyte = require('digibyte');
-var BufferReader = digibyte.encoding.BufferReader;
+var auroracoin = require('auroracoin');
+var BufferReader = auroracoin.encoding.BufferReader;
 
 describe('Message Utils', function() {
 
